@@ -28,7 +28,7 @@ class CombineIsolateFactory extends IIsolateFactory {
     });
 
     return IsolateCreateResult(
-      CombineIsolateWrapper(isolate),
+      CombineIsolateWrapper(isolate as CombineIsolate),
       CombineIsolateMessenger(isolate.messenger),
     );
   }
