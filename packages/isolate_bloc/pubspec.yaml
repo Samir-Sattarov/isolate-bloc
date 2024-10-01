@@ -9,17 +9,17 @@ environment:
   flutter: ">=2.0.0"
 
 dependencies:
-  combine: 0.1.2
-  equatable: ^2.0.3
+  combine:
+  equatable:
   flutter:
     sdk: flutter
-  provider: ^6.0.0
-  uuid: ^3.0.4
+  provider: 
+  uuid: 
 
 dev_dependencies:
-  all_lint_rules_community: ^0.0.9
-  dart_code_metrics: ^4.3.1
+  all_lint_rules_community:
+  dart_code_metrics:
   flutter_test:
     sdk: flutter
-  mocktail: ^0.3.0
-  path: ^1.8.0
+  mocktail: 
+  path: 
